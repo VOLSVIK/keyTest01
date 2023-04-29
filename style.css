@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.display {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #000;
+  overflow: auto;
+}
+.displ {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  width: 400px;
+  height: 100px;
+  border: 1px solid #000;
+  overflow: auto;
+}
+
+.rama {
+  width: 100px;
+  /* height: 40px; */
+  border: 1px solid #000;
+}
+
+.knop {
+  width: 10px;
+  height: 10px;
+  background: #FFFFFF;
+  border: 1px solid #000;
+  margin: 5px;
+  padding: 10px;
+}
+
+.activ {
+  background: rgb(227, 187, 75);
+}
+
+.carousel {
+  position: relative;
+  width: 398px;
+  padding: 10px 40px;
+  border: 1px solid #CCC;
+  /* left: 200px; */
+  border-radius: 15px;
+  background: #eee;
+}
+
+.carousel img {
+  width: 130px;
+  height: 130px;
+  /* делаем этот элемент блочным, чтобы убрать лишнее пространство вокруг картинок */
+  display: block;
+}
+
+.arrow {
+  position: absolute;
+  top: 60px;
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.prev {
+  left: 7px;
+}
+
+.next {
+  right: 7px;
+}
+
+.gallery {
+  width: 390px;
+  overflow: hidden;
+}
+
+.gallery ul {
+  height: 250px;
+  width: 1170px;
+  margin: 0px;
+  padding: 0;
+  opacity: 1;
+  margin-left: -390px;
+  list-style: none;
+  transition: none;
+  font-size: 0;
+}
